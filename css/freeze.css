@@ -851,25 +851,25 @@ section#features {
   background: #f6f6f6;
 }
 section#features header h1:after {
-  background: #66cdcc;
+  background: #ce0007;
 }
 section#features .media i.fa {
-  border: 2px solid #66cdcc;
-  color: #66cdcc;
+  border: 2px solid #ce0007;
+  color: #ce0007;
 }
 section#features .media:hover i.fa {
   color: #ffffff;
-  background: #66cdcc;
+  background: #ce0007;
 }
 section#features .media:hover h3 {
-  color: #66cdcc;
+  color: #ce0007;
 }
 section#features .media.active i.fa {
   color: #ffffff;
-  background: #66cdcc;
+  background: #ce0007;
 }
 section#features .media.active .media-heading {
-  color: #66cdcc;
+  color: #ce0007;
 }
 section#reviews {
   background: url("../img/freeze/bk-freeze.jpg");
