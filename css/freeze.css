@@ -748,17 +748,17 @@ form textarea.form-control {
 header {
   background: #66cdcc;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -moz-linear-gradient(-45deg, #e7e7e7 0%, #575757 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #66cdcc), color-stop(100%, #336799));
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #e7e7e7), color-stop(100%, #575757));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -webkit-linear-gradient(-45deg, #e7e7e7 0%, #575757 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -o-linear-gradient(-45deg, #e7e7e7 0%, #575757 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -ms-linear-gradient(-45deg, #e7e7e7 0%, #575757 100%);
   /* IE10+ */
-  background: linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: linear-gradient(-45deg, #e7e7e7 0%, #575757 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66cdcc, endColorstr=#336799, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
@@ -819,7 +819,7 @@ header .navbar-default ul.navbar-nav li a:hover {
   transition: all 0.25s ease-in-out;
 }
 header .navbar-default.scrolled {
-  border-bottom: 3px solid #336799;
+  border-bottom: 3px solid #ce0007;
 }
 header .navbar-default.scrolled ul.navbar-nav li a {
   color: #336799;
@@ -831,21 +831,21 @@ header .navbar-default.scrolled ul.navbar-nav li a:hover:after {
   background: #336799;
 }
 header .navbar-default.scrolled .navbar-brand {
-  background: #336799;
+  background: #ce0007;
 }
 section .section-heading .divider:after {
-  background: #66cdcc;
+  background: #ce0007;
 }
 section#about .about-item i.fa {
-  border: 2px solid #66cdcc;
-  color: #66cdcc;
+  border: 2px solid #ce0007;
+  color: #ce0007;
 }
 section#about .about-item:hover i.fa {
   color: #ffffff;
-  background: #66cdcc;
+  background: #ce0007;
 }
 section#about .about-item:hover h3 {
-  color: #66cdcc;
+  color: #ce0007;
 }
 section#features {
   background: #f6f6f6;
@@ -987,17 +987,17 @@ section#support .media:hover h3 {
 footer {
   background: #66cdcc;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -moz-linear-gradient(-45deg, #e7e7e7 0%, #575757 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #66cdcc), color-stop(100%, #336799));
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #e7e7e7), color-stop(100%, #575757));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -webkit-linear-gradient(-45deg, #e7e7e7 0%, #575757 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -o-linear-gradient(-45deg, #e7e7e7 0%, #575757 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -ms-linear-gradient(-45deg, #e7e7e7 0%, #575757 100%);
   /* IE10+ */
-  background: linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: linear-gradient(-45deg, #e7e7e7 0%, #575757 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66cdcc, endColorstr=#336799, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
@@ -1012,7 +1012,7 @@ footer .social a:hover {
   background: #ffffff;
 }
 footer .social a:hover i {
-  color: #66cdcc;
+  color: #ce0007;
 }
 footer .rights {
   color: #ffffff;
@@ -1027,13 +1027,13 @@ footer .rights a {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 .btn.btn-primary {
-  color: #66cdcc;
-  border-color: #66cdcc;
+  color: #ce0007;
+  border-color: #ce0007;
 }
 .btn.btn-primary:hover {
   color: #ffffff;
-  background: #66cdcc;
-  border-color: #66cdcc;
+  background: #ce0007;
+  border-color: #ce0007;
 }
 .btn.btn-primary.inverse {
   color: #ffffff;
@@ -1041,8 +1041,8 @@ footer .rights a {
 }
 .btn.btn-primary.inverse:hover {
   color: #ffffff;
-  background: #66cdcc;
-  border-color: #66cdcc;
+  background: #ce0007;
+  border-color: #ce0007;
 }
 .btn.btn-default {
   background: #ffffff;
@@ -1067,7 +1067,7 @@ footer .rights a {
   color: #336799;
 }
 form .form-control:focus {
-  border-color: #66cdcc;
+  border-color: #ce0007;
   color: #999999;
 }
 @media screen and (max-width: 640px) {
