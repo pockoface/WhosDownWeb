@@ -315,7 +315,8 @@
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-md-12 col-sm-12 scrollpoint sp-effect1">
-                                <form role="form" name="contactform" id="contactform">
+                                <span class="label" id="msgConfirmation" style="visibility: hidden;"></span>
+                                <form role="form" name="contactform" id="contactform" style="margin-top: 20px;">
                                     <div class="form-group">
                                         <input type="text" name="name" class="form-control" placeholder="Your name">
                                     </div>
@@ -377,7 +378,10 @@
         })
         .done(function(response){
             //to do
-
+            $("#msgConfirmation").html("Your message was successfully sent!");
+            $("#msgConfirmation").removeClass("label-danger");
+            $("#msgConfirmation").addClass("label-success");
+            $("#msgConfirmation").attr("style", "visibility: visible");
             // Clear the form.
             $('#name').val('');
             $('#email').val('');
@@ -385,6 +389,10 @@
         })
         .fail(function(data){
             //to do
+            $("#msgConfirmation").html("There was an error sending your message.");
+            $("#msgConfirmation").removeClass("label-success");
+            $("#msgConfirmation").addClass("label-danger");
+            $("#msgConfirmation").attr("style", "visibility: visible");
         })
     });
     </script>
