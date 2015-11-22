@@ -28,10 +28,10 @@
 
 .slick-prev:before, .slick-next:before { font-family: FontAwesome; font-size: 40px; line-height: 1; color: #ccc; opacity: 0.85; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
-.slick-prev { left: -25px; }
+.slick-prev { left: -45px; }
 .slick-prev:before { content: "\f137"; }
 
-.slick-next { right: -25px; }
+.slick-next { right: -45px; }
 .slick-next:before { content: "\f138"; }
 
 /* Dots */
