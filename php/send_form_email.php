@@ -14,11 +14,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $email_content = "Name: $name\n";
   $email_content .= "Email: $email\n\n";
   $email_content .= "Message:\n$message\n";
-  
+
   $params = array(
     'api_user'  => $user,
     'api_key'   => $pass,
-    'to'        => 'you.down.ent202@gmail.com',
+    'to'        => 'chrisbama92@gmail.com',
     'subject'   => 'You Down',
     'text'      => $email_content,
     'from'      => 'noreply@youdown.com',
