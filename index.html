@@ -369,7 +369,6 @@
     $("#submit_btn").click(function(e){
         e.preventDefault();
         var formData = $("#contactform").serialize();
-        alert(formData);
 
         $.ajax({
             type: 'POST',
